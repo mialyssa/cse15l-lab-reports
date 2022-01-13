@@ -1,3 +1,6 @@
+[Lab Report 1](lab-report-1-week-2.html)
+
+
 Some text! Hello!
 
 __This is bolded text__
