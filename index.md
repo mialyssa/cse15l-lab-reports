@@ -1,8 +1,8 @@
-[Lab Report 1 Link from repository](lab-report-1-week-2.html)
+[Lab Report 1 Link](lab-report-1-week-2.html)
 
 
 
-Some text! Hello!
+This is the index page.
 
 __This is bolded text__
 
@@ -30,4 +30,4 @@ Code inside a big block
 Hello there :D
 ```
 
-There has been a change.
+Ive added a change.
