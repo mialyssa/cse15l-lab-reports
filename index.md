@@ -1,6 +1,5 @@
 [Lab Report 1 Link from repository](lab-report-1-week-2.html)
 
-[Lab Report 1 Direct Path](https://mialyssa.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 
 Some text! Hello!
@@ -13,11 +12,13 @@ __This is bolded text__
 ## heading two
 [This is a link](https://youtu.be/dQw4w9WgXcQ)
 
-![This is an Image](https://images.unsplash.com/photo-1567990989224-6441e1483ac8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGliaXNjdXN8ZW58MHx8MHx8&w=1000&q=80)
+![This is an Image](https://plantsforallseasons.com/wp-content/uploads/2020/06/hibiscus-uses-pfas-plant-flower.jpg)
 > This is a blockquote
+
 * List 1
 * List 2
 * List 3
+
 1. One
 2. Two
 3. Three
