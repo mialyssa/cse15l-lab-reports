@@ -16,42 +16,34 @@ Now you are connected to the ieng6 server in the UCSD CSE Basement.
 
 Here are a couple of commands that can be used while in the remote server:
 
-__ls__ command lists files in current directory
-
-__ls -l__ lists all files in the current directory plus additional info such as last edited 
-
-__ls -a__ lists all files including hidden files in the current directory
-
-__ls -lat__ lists all files including hidden files in current directory and provides additional info
-
-__pwd__ gives absolute path of directory
-
-__cd__ by itself takes you back to the home directory
-
-__mkdir__ creates a new folder
-
-__rmdir__ removes a directory
-
-__scp__ copies file onto server
-
-__alias__ lets you make custom linux commands (kinda)	
-
-__open__ followed by a filename opens the file 
-
-__rev__ reverses every string given to it (Ctrl + C to exit)
-
-__touch__ creates a new file
-
-__rm__ removes a file
-
-__du__ gets the size of files and folders in a directory
-
-__echo__ produces whatever follows as text output
+* __ls__ command lists files in current directory
+* __ls -l__ lists all files in the current directory plus additional info such as last edited 
+* __ls -a__ lists all files including hidden files in the current directory
+* __ls -lat__ lists all files including hidden files in current directory and provides additional info
+* __pwd__ gives absolute path of directory
+* __cd__ by itself takes you back to the home directory
+* __mkdir__ creates a new folder
+* __rmdir__ removes a directory
+* __scp__ copies file onto server
+* __alias__ lets you make custom linux commands (kinda)	
+* __open__ followed by a filename opens the file 
+* __rev__ reverses every string given to it (Ctrl + C to exit)
+* __touch__ creates a new file
+* __rm__ removes a file
+* __du__ gets the size of files and folders in a directory
+* __echo__ produces whatever follows as text output
 
 ![Trying Some Commands](https://user-images.githubusercontent.com/97639434/149598715-905eef64-ddb3-4583-aae2-ff59496d8b48.png)
 
+Moving files from your client (home computer) to the server (SSH) must be done from the client computer. To exit the server, type __exit.__
+Using the file name, use scp to transfer the desired file into the server:
+> scp fileName.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
-![Moving Files with scp]
+Then you can log in and using __ls__, it should appear in the server. (In this case, I added the *WhereAreYou.java* file)
+
+![Moving Files with scp](https://user-images.githubusercontent.com/97639434/149599685-9d23b532-4956-4218-b266-a5814ae7083f.png)
+
+
 
 ![Setting an SSH Key]
 
