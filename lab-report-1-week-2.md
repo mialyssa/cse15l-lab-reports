@@ -61,6 +61,10 @@ To make this run even smoother and faster, strategies that can be used are QOL i
 * pressing the up arrow key to select code that was already inputted before
 * putting multiple lines of code in a single line using semicolons (__;__)
 * Using quotes to access a command remotely while logging in
-* 
+* Using an alias to create a keyword to do a bunch of code at once (using the above methods)
+![Optimizing Remote Running](https://user-images.githubusercontent.com/97639434/149601466-6c966840-a367-4b95-ba8b-9bc3e3eb05a9.png)
 
-![Optimizing Remote Running]
+
+
+alias test="scp WhereAreYou.java cs15lwi22alz@ieng6.ucsd.edu:~/; ssh cs15lwi22alz@ieng6.ucsd.edu 'javac WhereAreYou.java';ssh cs15lwi22alz@ieng6.ucsd.edu 'java WhereAreYou'"
+
