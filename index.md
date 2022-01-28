@@ -1,6 +1,7 @@
-[Lab Report 1 Link](lab-report-1-week-2.html)
+[Lab Report 1 Link](lab-report-1-week-2.html) __|__  [Lab Report 2 Link](lab-report-2-week-4.html)
 
 
+# github formating index below 
 
 This is the index page.
 
