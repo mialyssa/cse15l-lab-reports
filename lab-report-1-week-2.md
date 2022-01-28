@@ -1,6 +1,6 @@
 [Link back to index page](https://mialyssa.github.io/cse15l-lab-reports/)
 
-# Logging into a course-specific account remotely
+# Lab 1 - Week 2: Logging into a course-specific account remotely
 
 ## Setting up and Installing VS Code
 
