@@ -14,11 +14,11 @@ The input contained ```"hello"``` in between the parenthesis and brackets messed
 
 
 ## Code Change 2: Accounting for unnecessary brackets and parenthesis
-![image](https://user-images.githubusercontent.com/97639434/151637256-b017d910-3442-432c-89d5-1c1268f87eda.png)
+![repo commit image](https://user-images.githubusercontent.com/97639434/151639024-90d7164f-ec5c-4b97-9b7f-304443bc83c8.png)
 [Link to the test file containing failure-inducing input](https://github.com/mialyssa/markdown-parse/blob/main/breaks-first-commit-2.md) 
 
 Symptom: 
-![image containing error msg](https://user-images.githubusercontent.com/97639434/151639024-90d7164f-ec5c-4b97-9b7f-304443bc83c8.png)
+![image containing error msg](
 [Link to the test file containing failure-inducing input](https://github.com/mialyssa/markdown-parse/edit/main/breaks-second-commit.md)
 
 The link was formatted wrong, however the symptom shows that it was still considered a link. The input had an extra set of brackets within the link name (```[link[]]```).
