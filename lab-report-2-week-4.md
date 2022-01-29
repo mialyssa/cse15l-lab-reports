@@ -4,7 +4,7 @@
 
 ## Code Change 1: Accounting for words inbetween parenthesis and brackets
 ![repo commit image](https://user-images.githubusercontent.com/97639434/151639615-c1657892-a41c-4991-806a-845171ebe695.png)
-[Link to the test file containing failure-inducing input]() 
+[Link to the test file containing failure-inducing input](https://github.com/mialyssa/markdown-parse/blob/main/breaks-first-commit-2.md) 
 
 Symptom: 
 ![vscode containing error msg](https://user-images.githubusercontent.com/97639434/151638494-a1a122c8-bc46-4bf1-b6cc-b5d72e64205d.png)
@@ -15,7 +15,7 @@ The input contained ```"hello"``` in between the parenthesis and brackets messed
 
 ## Code Change 2: Accounting for unnecessary brackets and parenthesis
 ![repo commit image](https://user-images.githubusercontent.com/97639434/151639024-90d7164f-ec5c-4b97-9b7f-304443bc83c8.png)
-[Link to the test file containing failure-inducing input](https://github.com/mialyssa/markdown-parse/blob/main/breaks-first-commit-2.md) 
+[Link to the test file containing failure-inducing input](https://github.com/mialyssa/markdown-parse/blob/main/breaks-second-commit.md) 
 
 Symptom: 
 ![vscode containing error msg](https://user-images.githubusercontent.com/97639434/151640363-a47a80f1-8be9-48f1-a622-e7223dac577c.png)
