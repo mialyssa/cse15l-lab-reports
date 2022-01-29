@@ -34,4 +34,5 @@ The link was formatted wrong, however the symptom shows that it was still consid
 
 Symptom: 
 ![vscode containing error msg](https://user-images.githubusercontent.com/97639434/151639833-8412a075-5ecb-474f-99d1-c82397d57e76.png)
+
 The file contained the formatting for an image link, however the program counted it as a regular link and added it to the arraylist, as shown by the symptom. The bug was that the program did not search for any ```!``` that would indicate the difference between an image and a page link.
