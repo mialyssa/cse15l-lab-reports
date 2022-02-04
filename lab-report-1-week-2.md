@@ -31,7 +31,8 @@ Here are a couple of commands that can be used while in the remote server:
 * ```pwd``` gives absolute path of directory
 * ```cd``` by itself takes you back to the home directory
 * ```mkdir``` creates a new folder
-* ```rmdir``` removes a directory
+* ```rmdir``` removes an empty directory
+* ```rmdir -rf``` removes nonempty directory along with it's contents
 * ```scp``` copies file onto server
 * ```alias``` lets you make custom linux commands (kinda)	
 * ```open``` followed by a filename opens the file 
