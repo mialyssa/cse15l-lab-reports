@@ -20,9 +20,7 @@ The input contained ```"hello"``` in between the parenthesis and brackets messed
 Symptom: 
 ![vscode containing error msg](https://user-images.githubusercontent.com/97639434/151640363-a47a80f1-8be9-48f1-a622-e7223dac577c.png)
 
-
-
-The link was formatted wrong, however the symptom shows that it was still considered a link. The input had an extra set of brackets within the link name (```[link[]]```).
+The bug was that wrongly formatted links containing uneccessary brackets were still considered links. The input was wrong as it had a nested bracket within the link title (```[link[]]```). Yet as the symptom shows, it was still considered a link. 
 
 
 
