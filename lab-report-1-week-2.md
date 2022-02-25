@@ -41,6 +41,7 @@ Here are a couple of commands that can be used while in the remote server:
 * ```rm``` removes a file
 * ```du``` gets the size of files and folders in a directory
 * ```echo``` produces whatever follows as text output
+* ```mv (old) (new)``` renames a directory
 
 ![Trying Some Commands](https://user-images.githubusercontent.com/97639434/149598715-905eef64-ddb3-4583-aae2-ff59496d8b48.png)
 
