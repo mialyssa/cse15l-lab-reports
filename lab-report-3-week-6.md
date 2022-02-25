@@ -62,10 +62,7 @@ cd markdown-parse-COPY; bash makefile; bash makefile
 
 ```
 pushing to github repo from ieng6:
-
     git add .
-    
     git commit -m "message"
-    
     git push
 ```
