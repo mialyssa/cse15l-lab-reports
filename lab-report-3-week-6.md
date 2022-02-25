@@ -60,10 +60,12 @@ cd markdown-parse-COPY; bash makefile; bash makefile
 ```
 ![running commands on one line](https://user-images.githubusercontent.com/97639434/153686227-5de46469-9538-456b-840c-282e60a02dc9.png)
 
+```
 pushing to github repo from ieng6:
 
-    ```git add .```
+    git add .
     
-    ```git commit -m "message"```
+    git commit -m "message"
     
-    ```git push```
+    git push
+```
