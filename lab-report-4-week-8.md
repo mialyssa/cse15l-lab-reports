@@ -1,7 +1,8 @@
 [Link back to index page](https://mialyssa.github.io/cse15l-lab-reports/)
 
 # Lab 4 - Week 8: Debugging
-Repository that we reviewed: [annakkin's repo](https://github.com/annakkin/markdown-parse)
+[Reviewed repository](https://github.com/annakkin/markdown-parse)
+[My repository](https://github.com/mialyssa/markdown-parse)
 
 ## Snippet 1
 Expected output: ```[`google.com]```
