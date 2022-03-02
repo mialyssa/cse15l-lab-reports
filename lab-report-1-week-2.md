@@ -59,11 +59,12 @@ Then you can log in and using ```ls```, it should appear in the server. (In this
 
 Setting an SSH Key eliminates the need to type in the password to ```cse15lwi22alz@ieng6.ucsd.edu``` every time you log in.
 To do so, follow in the client (not on the server):
-1. type in the client ```ssh-keygen```
+1. (On Home Client) type in the client ```ssh-keygen```
 2. Enter the location to save the keys in: ```/Users/mialy/.ssh/id_rsa```
 3. (bypass the passphrase by pressing enter 3 times)
-4. Now make a directory called ```.ssh``` in the server: ```mkdir .ssh``` (log into server first)
-5. Logout, and now the password is no longer required to log in anymore! This is due to the last step creating a copy of the public key to the ```.ssh``` directory of the User on the server.
+4. (On ieng6 Server) Now make a directory called ```.ssh``` in the server: ```mkdir .ssh```
+5. (On Home Client) Logout of ieng6 and ```scp``` the public key: ```scp /Users/mialy/.ssh/id_rsa.pub cs15lwi22alz@ieng6.ucsd.edu:~/.ssh/authorized_keys```
+6. Now the password is no longer required to log in anymore! This is due to the last step creating a copy of the public key to the ```.ssh``` directory of the User on the server.
 
 (However, most of the images in this report do not show the need for a password, as I had already completed it in lab)
 
