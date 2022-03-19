@@ -26,6 +26,12 @@ should be a broken link, or ```[]``` as our output. Therefore, my markdown parse
 * The bug is that the code is not accounting for the appearance of images. The symptom is that the link output was ```train.jpg```, when it should be ```[]```, meaning 
 it did not check for any ```!``` denoting an image.
 
+![image check location](https://user-images.githubusercontent.com/97639434/159097971-f96d62ac-cbb0-41d8-a8c4-538e9066398d.png)
+
+* The bug fix should be located within the while loop within ```getLinks()``` for Strings. It should be an if statement searching for any ```!``` before brackets
+and disregarding that link entirely.
+
+
 ## Test file 505
 
 __The original ```test-files/505.md``` contains ```[link](/url "title \"&quot;")``` as it's contents.__
@@ -40,3 +46,8 @@ Output of the ```diff``` comparison:
 outputted everything regardless between the brackets, while the provided markdown parse did not return anything.
 * The bug is that the contents in between the quotes are not omitted, as it is part of a title. The code should check for closed sets of quotation marks within a
 set of brackets or parenthesis, as the contents within them are to be removed from the link.
+
+![quotes check location](https://user-images.githubusercontent.com/97639434/159098231-0b1c3bb6-f072-4986-b1ce-fd9fd71f213e.png)
+
+* The bug fix should be located within the while loop within ```getLinks()``` for Strings. It should be either an if statement or while loop that locates any quotation
+marks and remove any text that are inside them before printing.
